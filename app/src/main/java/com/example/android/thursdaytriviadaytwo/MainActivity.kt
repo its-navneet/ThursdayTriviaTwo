@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MainApp() {
-    Column(modifier = Modifier){
+    Column(modifier =  Modifier){
         Image(painter = painterResource(id = R.drawable.banner) , contentDescription = "Banner")
         Spacer(modifier = Modifier.height(20.dp))
         Text(text = "Score", modifier = Modifier.align(alignment = Alignment.CenterHorizontally), fontSize = 30.sp)
