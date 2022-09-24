@@ -55,11 +55,11 @@ fun MainApp() {
 @Composable
 fun UserRow(){
     Row(horizontalArrangement = Arrangement.SpaceEvenly, modifier = Modifier.fillMaxWidth(),) {
-        Column() {
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(text = "You Chose", fontSize = 16.sp)
             Text(text = "Rock", fontSize = 32.sp)
         }
-        Column() {
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(text = "Android chose", fontSize = 16.sp)
             Text(text = "Paper", fontSize = 32.sp)
         }
